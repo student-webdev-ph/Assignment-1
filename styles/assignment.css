@@ -1,0 +1,11 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* nav styles */
+nav-button{
+    color:#006A50;
+    border: 0 solid #006A50;
+    border-radius: 50%;
+}
