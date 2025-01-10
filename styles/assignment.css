@@ -3,9 +3,63 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  body{
+    background-color: #F5F5F5;
+  }
 /* nav styles */
-nav-button{
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+header h3{
+    font-size: 32px;
+}
+.nav-button{
     color:#006A50;
-    border: 0 solid #006A50;
-    border-radius: 50%;
+    background-color: white;
+    font-size: 18px;
+    border: 1px solid #006A50;
+    border-radius: 7px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/* banner-styles */
+
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    gap: 600px;
+    border-radius: 20px;
+    margin: 20px 160px 20px 160px;
+    max-width: 100%;
+    padding: 117px 70px;
+    
+}
+.banner-content{
+    /* max-width: 100%; */
+}
+ .banner-subtitle{
+    color: #0E0E0E;
+    font-size:24px;
+    font-weight: bold;
+    opacity: 50%;
+ }
+ .banner-title{
+    font-size: 56px;
+    font-weight: bolder;
+ }
+
+.btn-same{
+    font-size: 18px;
+    font-weight: 600;
+    color:#ffffff;
+    background-color:#006A50;
+    border: none;
+    border-radius:10px;
+    padding: 17px 34px;
 }
