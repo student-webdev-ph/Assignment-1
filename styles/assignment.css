@@ -269,7 +269,11 @@ table{
 }
 
 /* hover */
-.btn-same:hover{
+.card-2:hover{
+    background-color: bisque;
+}
+
+.btn-same ,.btn:hover{
     color: #000000;
     background-color: #ffffff;
     border: 1px solid black;
