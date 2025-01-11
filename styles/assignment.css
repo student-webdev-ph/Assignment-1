@@ -1,13 +1,36 @@
-.fira-sans-regular {
+/* .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+  } */
 
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
   body{
     background-color: #F5F5F5;
-  }
+    font-family: 'fira sans';
+}
+
+
+  /* share-styles */
+  .all-paragraphs{
+    font-size:16px ;
+    font-weight: normal;
+    color:#0E0E0E;
+    opacity: 70%;
+}
+
+.btn-same{
+    font-size: 18px;
+    font-weight: 600;
+    color:#ffffff;
+    background-color:#006A50;
+    border: none;
+    border-radius:10px;
+    padding: 17px 34px;
+}
+
+
 /* nav styles */
 nav{
     display: flex;
@@ -54,7 +77,7 @@ header h3{
     font-weight: bolder;
  }
 
-.btn-same{
+/* .btn-same{
     font-size: 18px;
     font-weight: 600;
     color:#ffffff;
@@ -62,4 +85,86 @@ header h3{
     border: none;
     border-radius:10px;
     padding: 17px 34px;
+} */
+
+/* section-styles */
+
+.section-1{
+    margin: 80px 160px;
+}
+
+main h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.visions{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 32px;
+}
+
+.card-1{
+    /* background-color:#5490F5; */
+    background-color: #A2C2F8;
+    border-radius: 15px;
+    padding: 32px;
+    width: 410px;
+
+}
+.card-2{
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    padding: 32px;
+    width: 410px;
+}
+.card-3{
+    background-color:#F7EBCF;
+    border-radius: 15px;
+    padding: 32px;
+    width: 410px;
+
+}
+
+
+.card-title{
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.card-btn1{
+    color: white;
+    /* background-color: #5490F5; */
+    background-color: #598EE5;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 11px 20px;
+
+}
+
+.card-btn2{
+    color: white;
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 11px 20px;
+
+}
+.card-btn3{
+    color: white;
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 11px 20px;
+
 }
