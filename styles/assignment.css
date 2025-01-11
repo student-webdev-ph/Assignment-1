@@ -22,6 +22,7 @@
     border: none;
     border-radius:10px;
     padding: 17px 34px;
+    cursor: pointer;
 }
 
 
@@ -58,7 +59,7 @@ header h3{
     
 }
 .banner-content{
-    /* max-width: 100%; */
+    max-width: 100%;
 }
  .banner-subtitle{
     color: #0E0E0E;
@@ -90,6 +91,7 @@ main h3{
     justify-content: space-between;
     max-width: 100%;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .card-1{
@@ -154,7 +156,38 @@ main h3{
 
 }
 
-/* srction-2 styles */
+/* challenge-part */
+
+.speech{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 25px left 22px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.nobel-winner{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 4px;
+}
+.appositive{
+    font-size:16px;
+    color:#0E0E0E;
+    opacity:60%;
+    font-weight:normal;
+}
+
+/* hover */
+.btn-same:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+/* section-2 styles */
 
 .news{
     background-color: #ffffff;
