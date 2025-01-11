@@ -247,7 +247,7 @@ table{
 }
 /* challenge-part */
 .speech{
-    background-image: url("/assets/quote-bg.png");
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top 25px left 22px;
     border-radius: 15px;
