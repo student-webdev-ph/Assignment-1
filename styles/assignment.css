@@ -273,7 +273,12 @@ table{
     background-color: bisque;
 }
 
-.btn-same ,.btn:hover{
+.btn-same:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.btn:hover{
     color: #000000;
     background-color: #ffffff;
     border: 1px solid black;
