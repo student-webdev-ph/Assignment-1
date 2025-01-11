@@ -153,42 +153,6 @@ main h3{
     padding: 11px 20px;
 
 }
-
-/* challenge-part */
-
-.speech{
-    background-image: url("/assets/hero.png");
-    background-repeat: no-repeat;
-    background-position: top 25px left 22px;
-    border-radius: 15px;
-    background-color: #ffffff;
-    padding: 40px 20px;
-}
-.nobel-winner{
-    font-size: 20px;
-    font-weight: 600;
-    color: #0E0E0E;
-    opacity: 80%;
-    margin-bottom: 4px;
-}
-.appositive{
-    font-size:16px;
-    color:#0E0E0E;
-    opacity:60%;
-    font-weight:normal;
-}
-
-/* hover */
-.btn-same:hover{
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid black;
-}
-
-.tk:hover{
-    border-style: outset;
-}
-
 /* section-2 styles */
 
 .news{
@@ -231,9 +195,9 @@ main h3{
 
 .donate-amounts{
     display: flex;
-    /* align-content: center; */
     justify-content: center;
     gap: 24px;
+    margin-top: 32px;
 }
 
 .tk{
@@ -257,8 +221,60 @@ main h3{
     margin-bottom: 32px;
 }
 
-input{
+.section-3 input{
    border: none;
    padding: 20px 422.5px;
    margin-bottom: 32px;
+}
+
+/* last-section styles */
+.last-section{
+    border-radius: 15px;
+    margin: 80px 160px;
+    max-width: 100%;
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 80px 265px;
+}
+.last-section input{
+    border: none;
+    padding: 20px 403px 18px 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+table{
+    border-collapse: collapse;
+}
+/* challenge-part */
+.speech{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 25px left 22px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.nobel-winner{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 4px;
+}
+.appositive{
+    font-size:16px;
+    color:#0E0E0E;
+    opacity:60%;
+    font-weight:normal;
+}
+
+/* hover */
+.btn-same:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.tk:hover{
+    border-style: outset;
 }
