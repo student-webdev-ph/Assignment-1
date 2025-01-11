@@ -186,3 +186,37 @@ main h3{
     font-weight: bold;
     color: #0E0E0E;
 }
+/* donate-section styles */
+
+.donate-part{
+    margin: 80px 160px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.donate-ammounts{
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 24px;
+}
+
+.tk{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 32px;
+}
+.donated{
+    background-color: #C6E4D6;
+}
+
+input{
+   border: none;
+   padding: 20px 422.5px;
+   margin-bottom: 32px;
+}
